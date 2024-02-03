@@ -120,10 +120,10 @@ public class Main {
         city.addBuilding(building1);
         city.addBuilding(building2);
 
-        City astanaCity = new City("Almaty");
-        Building astanaBuilding = new Building("Al Farabi", "14", 120000.0);
-        Room astanaRoom = new Room(24, 80.0, astanaBuilding);
-        astanaCity.addBuilding(astanaBuilding);
+        City almatyCity = new City("Almaty");
+        Building almatyBuilding = new Building("Al Farabi", "14", 120000.0);
+        Room almatyRoom = new Room(24, 80.0, almatyBuilding);
+        almatyCity.addBuilding(almatyBuilding);
 
         building1.addRoom(room1);
         building1.addRoom(room2);
